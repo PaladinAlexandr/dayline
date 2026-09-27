@@ -43,7 +43,14 @@
 4. На Android добавьте виджет через меню виджетов главного экрана. На Windows используйте **Настройки → Виджет на рабочем столе**.
 5. Разрешите уведомления; на Android для точного времени также предоставьте доступ к будильникам и напоминаниям.
 
-В репозитории размещены исходники обеих версий. Инструкции для самостоятельной сборки — ниже.
+Готовые приложения доступны в [Releases](https://github.com/PaladinAlexandr/dayline/releases/latest):
+
+| Платформа | Скачать |
+| --- | --- |
+| Android 12+, ARM64 | [APK 1.0.1](https://github.com/PaladinAlexandr/dayline/releases/download/v1.1.1/Dayline-1.0.1-pixel9-arm64.apk) |
+| Windows 10 / 11, x64 | [ZIP 1.1.1 с виджетом](https://github.com/PaladinAlexandr/dayline/releases/download/v1.1.1/Dayline-1.1.1-Windows-x64.zip) |
+
+В выпуске также есть инструкции установки и `SHA256SUMS.txt`. Android APK имеет версию 1.0.1; текущие исходники и Windows-сборка — 1.1.1. Для самостоятельной сборки используйте инструкции ниже.
 
 ## Как работает Obsidian
 
