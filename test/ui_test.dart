@@ -75,7 +75,10 @@ void main() {
       await tester.pumpAndSettle();
       expect(find.text('Сохранение с Obsidian'), findsWidgets);
       expect(store.items.single.category, 'Обучение/Теория');
-      expect(MarkdownCodec.decode(markdown!).single.category, 'Обучение/Теория');
+      expect(
+        MarkdownCodec.decode(markdown!).single.category,
+        'Обучение/Теория',
+      );
       await tester.pumpWidget(const SizedBox());
       store.dispose();
       final nextStore = PlannerStore();
