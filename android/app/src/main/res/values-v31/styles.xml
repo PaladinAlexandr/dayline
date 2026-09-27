@@ -1,0 +1,13 @@
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowSplashScreenBackground">#121A18</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/icon_foreground</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarColor">#121A18</item>
+        <item name="android:windowBackground">#121A18</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">#121A18</item>
+    </style>
+</resources>
